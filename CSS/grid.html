@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RWD</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            background-color: rgb(31, 31, 31);
+            padding: 30px;
+            color: white;
+        }
+        .main{
+            padding: 30px;
+            width: 100%;
+            text-align: justify;
+            overflow: hidden;
+            background-color:rgba(245, 245, 220, 0.616);
+           
+           
+        }
+        .left{
+            width: 30%;
+            float: left;
+            padding: 10px;
+            
+        }
+        .right{
+            width: 70%;
+            float: right;
+            padding: 10px;
+           
+        }
+
+        @media only screen and (max-width:600px){
+            .left{
+                width: 100%;
+            }
+            .right{
+                width: 100%;
+            }
+            body{
+              background-image: url(img/background-image.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+        } 
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>This a Headaer</h1>
+    </div>
+    <div class="main">
+        <div class="left">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro doloribus debitis nihil, inventore, corrupti voluptatibus impedit magni at reiciendis autem enim assumenda amet tempore distinctio veritatis recusandae quo ad delectus. Iure nobis quae ipsa aspernatur enim provident commodi. Accusantium at quas delectus beatae corrupti modi magni asperiores veniam quasi quod.</p>
+        </div>
+        <div class="right">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos pariatur suscipit voluptatibus consectetur. Dolores commodi ad soluta repudiandae repellendus rem fuga obcaecati enim perspiciatis quasi! Aspernatur omnis, numquam ipsam quisquam debitis aperiam consequuntur ipsa architecto consequatur adipisci, assumenda alias? Debitis tempora, cupiditate animi laudantium maxime tempore rem minus eius repudiandae laboriosam? Repellendus necessitatibus, eius, labore tempore architecto fugit sapiente ex deleniti maiores ipsam ipsum aspernatur consectetur temporibus eligendi dolorem expedita, rerum nesciunt dolor quas ab commodi cupiditate. Expedita minima praesentium asperiores doloremque repellendus quidem, rerum quasi nulla debitis ad fugiat quia cum dolore corrupti esse neque suscipit aperiam quisquam! Et.</p>
+        </div>
+    </div>
+</body>
+</html>

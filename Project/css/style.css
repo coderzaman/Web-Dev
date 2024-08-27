@@ -1,0 +1,55 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner{
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-color: rgb(56, 56, 56);
+
+}
+.banner-column{
+    background-color: rgba(173, 173, 173, 0.438);
+}
+
+.circle{
+   height: 200px;
+   width: 200px;
+   background-color: white;
+   border-radius: 50%; 
+}
+
+.margin-head{
+    margin-bottom: 70px;
+}
+
+.nav-container{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.btn-class:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+.icon-circle{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.icon-circle:hover{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    transition:100ms;
+}
